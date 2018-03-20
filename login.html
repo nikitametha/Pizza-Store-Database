@@ -1,0 +1,35 @@
+<html>
+ <head>
+ <title>LOGIN </title>  
+ <link rel="stylesheet" type="text/css" href="logincss.css">
+  </head>
+
+    <body>
+    <center><h1 id="head">Login Here</h1></center>
+<div class="login-page">
+  <div class="form">
+    <form method="post" action="process.php" class="login-form">
+      <input type="text" placeholder="Username" name="user" id="username"/>
+      <input type="password" placeholder="Password" name="pass"/>
+      <button>LOGIN</button>
+      <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+    </form>
+  </div>
+</div>
+       <!-- <script>
+        function check()
+            {
+            var checker=document.getElementById('username');
+                var newvar=checker.value;
+                document.write(newvar);
+           if(newvar==null ){
+               alert("empty username is not allowed");
+               return false;
+            }else
+                {return true;
+                }
+            }
+                    </script>
+    -->
+    </body>
+</html>
